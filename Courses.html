@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+<title> Courses </title>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel=stylesheet href="css/style.css">
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img src="https://gomycode.tn/images/section2GMCLogo.png" width=50>
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="Courses.html">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="header">
+        <h1> Courses </h1>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm img-course">
+                <img src="res/Aurore.jpg" alt="Aurore" width=300 height=300>
+                <button class="viewmore"> <a href="#ex1" rel="modal:open">View More </a> </button> </div>
+            <div class="col-sm img-course">
+                <img src="res/Aurore.jpg" alt="Aurore" width=300 height=300>
+                <button class="viewmore"> <a href="#ex1" rel="modal:open">View More </a> </button> </div>
+            <div class="col-sm img-course">
+                <img src="res/Aurore.jpg" alt="Aurore" width=300 height=300>
+                <button class="viewmore"> <a href="#ex1" rel="modal:open">View More </a> </button> </div>
+        </div>    
+
+            <div class="row">
+                <div class="col-sm img-course">
+                    <img src="res/Aurore.jpg" alt="Aurore" width=300 height=300>
+                    <button class="viewmore"> <a href="#ex1" rel="modal:open">View More </a> </button> </div>
+                <div class="col-sm img-course">
+                    <img src="res/Aurore.jpg" alt="Aurore" width=300 height=300>
+                    <button class="viewmore"> <a href="#ex1" rel="modal:open">View More </a> </button> </div>
+                <div class="col-sm img-course">
+                    <img src="res/Aurore.jpg" alt="Aurore" width=300 height=300>
+                    <button class="viewmore"> <a href="#ex1" rel="modal:open">View More </a> </button> </div>
+            </div>
+                <div class="row">
+                    <div class="col-sm img-course">
+                        <img src="res/Aurore.jpg" alt="Aurore" width=300 height=300>
+                        <button class="viewmore"> <a href="#ex1" rel="modal:open">View More </a> </button> </div>
+                    <div class="col-sm img-course">
+                        <img src="res/Aurore.jpg" alt="Aurore" width=300 height=300>
+                        <button class="viewmore"> <a href="#ex1" rel="modal:open">View More </a> </button> </div>
+                    <div class="col-sm img-course">
+                        <img src="res/Aurore.jpg" alt="Aurore" width=300 height=300>
+                        <button class="viewmore"> <a href="#ex1" rel="modal:open">View More </a> </button> </div>
+                </div>
+            </div>
+
+            <br>
+            <div align="center">
+                <p style=color:white><b> Feedback </b></p>
+                <br>
+                <button onclick="onBold()">B</button>
+                <button onclick="onItalic()">I</button>
+                <button onclick="underline()">Underline</button>
+
+                <select id="size">
+                    <option>20px</option>
+                    <option>30px</option>
+                    <option>40px</option>
+                </select>
+                <select id="Font">
+                    <option>Arial</option>
+                    <option>Verdana</option>
+                    <option>Geneva</option>
+                </select>
+
+                <form>
+                    <textarea id='form123'></textarea>
+                </form>
+                <div id="ex1" class="modal">
+                    <p>Thanks for clicking. That felt good.</p>
+                    <a href="#" rel="modal:close">Close</a>
+                </div>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+<script src="JS/main.js"></script>
+
+
+
+</html>

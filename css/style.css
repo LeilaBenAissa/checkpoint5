@@ -1,0 +1,101 @@
+.accueil {
+    color : white ;
+    font-size : 25px; 
+    font-weight: bold ;
+    font-family : Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; 
+    display : inline-block ;
+    padding : 30px; 
+    text-decoration: none;
+    box-sizing: boxing-size;
+
+}
+body { 
+    margin : 0px ;
+    background: Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+
+    Linear-gradient(127deg, black, black 70.71%),
+    
+    Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+
+}
+
+#images { text-align: center ;
+    padding : 25px;
+}
+.images {
+    display:flex;
+    margin-top : 5% ; 
+}
+.container1 {
+    position: relative ;
+    margin-left : 2%; 
+    text-align : center ;
+    padding : 25px;
+    margin : 25px;
+    width:30%;
+}
+#contact-form {
+    text-align : center; 
+}
+a:hover {color : red; 
+}
+input:hover{
+    background-color : lightgray; 
+}
+#specialinput:hover {color :red;
+    background-color: lightskyblue;
+}
+label {
+color : white ;
+font-weight : bold ; 
+}
+#form123 {
+    height: 400px;
+    width: 400px;
+    max-width: 400px;
+    max-height: 150px;
+}
+.viewmore {
+    display : none ;
+    position:absolute;
+    top:50%!important;
+    left:30%!important;
+}
+.content {
+    display:none;
+}
+.head-courses {
+    background-image : url("")
+}
+.img-carousel{
+width: 100%;
+max-height: 800px!important;
+}
+.header {
+    height: 450px;
+    background-image: url("https://iyadhkhalfallah.github.io/checkpointsGMC/res/webdev3.png");
+    background-position: center;
+    box-sizing: border-box;
+}
+.header h1{
+    margin-top: 0;
+    font-size: 6em;
+    font-family: 'Bree Serif', serif;
+    color: #fff;
+    position: relative; /*
+        Un élément positionné de façon relative est un élément dont la propriété
+        de position calculée est relative. Dans ce cas, les propriétés top ou bottom
+        indiquent le décalage vertical à appliquer et left ou right indiquent
+        le décalage horizontal. (https://developer.mozilla.org/fr/docs/Web/CSS/position)
+    */
+    top: 40%; /*remove position:relative and this property will not have any effect*/
+    text-align: center;
+    text-shadow: 5px 2px rgb(12, 11, 11);
+}
+.Bar_Size {
+    width : 350px ;
+}
+.submit_style {
+    margin-top : 5px;
+    margin-left : 140px;
+}
